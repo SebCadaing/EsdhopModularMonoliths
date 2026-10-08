@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/Bootstrapper/">
+    <Project Path="Bootstrapper/Api/Api.csproj" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Basket/">
+    <Project Path="Modules/Basket/Basket/Basket.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Catalog/">
+    <Project Path="Modules/Catalog/Catalog/Catalog.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Ordering/">
+    <Project Path="Modules/Ordering/Ordering/Ordering.csproj" />
+  </Folder>
+  <Folder Name="/Shared.Core/">
+    <Project Path="Shared/Shared/Shared.Core.csproj" />
+  </Folder>
+  <Folder Name="/Shared.Infra/">
+    <Project Path="Shared.ASPNETCORE/Shared.ASPNETCORE/Shared.Infra.csproj" Id="c0e7e5fd-4dd0-4827-b7f9-50e92343426e" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
